@@ -63,3 +63,19 @@ export const Spacing = {
 
 export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
 export const MaxContentWidth = 800;
+
+/** Palette for the auth flow (matches the Sparkleaf design). */
+export const AuthColors = {
+  background: '#F8F6FF',
+  surface: '#FFFFFF',
+  field: '#F3F2FF',
+  fieldBorder: '#6B6880',
+  text: '#1B1F3B',
+  textMuted: '#4A4D68',
+  primary: '#55B5A7',
+  brand: '#2B6B5E',
+  error: '#BA1A1A',
+  divider: '#E3E1F0',
+  badge: '#B5F0E3',
+  card: '#EEEDFF',
+} as const;
